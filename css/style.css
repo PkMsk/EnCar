@@ -1,0 +1,137 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.bigred{
+	font-size: 20px;
+	color: red;
+}
+
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 15px;
+}
+.container{
+	max-width: 1457px;
+	margin: 0px auto;
+}
+
+
+.header__inner{
+	display: flex;
+}
+.header__nav-items{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	display: flex;
+	padding: 28px 0 21px 0;
+}
+
+.header__nav-item{
+	margin: 0 12px;
+}
+
+.header__logo{
+	margin-right: 4px;
+}
+
+
+.header__phone{
+	position: relative;
+	width: 236px;
+	background-color: #FA002C;
+	border-radius: 8px;
+	margin: 9px 0 2px 31px;
+	padding: 16px 28px 16px 53px;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 700;
+}
+.header__phone::before{
+	content: " ";
+	position: absolute;
+	
+}
+.intro{
+	margin-top: 61px;
+	
+}
+.intro__info{
+	display: inline-block;
+	width: 709px;
+	padding: 73px 93px 32px 64px;
+	background-color: grey;
+	border: 1px solid #FFFFFF;
+	border-radius: 24px;
+}
+.intro__info-title {
+	font-size: 70px;
+	font-weight: 800;
+	line-height: 90px;
+	text-transform: uppercase;
+}
+.intro__info-items{
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 36px;
+}
+.intro__info-consultation{
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 47px;
+	margin-bottom: 27px;
+}
+.intro__consult-button{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 26px;
+	background-color: #FA002C;
+	border-radius: 8px;
+	padding: 36px 35px 34px 36px;
+}
+.intro__info-telegram{
+	display: inline-block;
+}
+.intro__info-youtube{
+	display: inline-block;
+}
+
+
