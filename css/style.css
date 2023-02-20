@@ -86,8 +86,14 @@ body{
 	font-weight: 700;
 }
 .header__phone::before{
-	content: " ";
+	content: "";
 	position: absolute;
+	top: 20px;
+	left: 29px;
+	background-image: url(../image/icons/phone-logo.svg);
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
 	
 }
 .intro{
@@ -112,6 +118,29 @@ body{
 	font-size: 26px;
 	font-weight: 600;
 	line-height: 36px;
+}
+.intro__info-item{
+	position: relative;
+	padding-left: 44px;
+}
+
+.intro__info-item::before{
+	content: "";
+	position: absolute;
+	background-image: url(../image/icons/tik.svg);
+	top:10px;
+	left: 0;
+	width: 20px;
+	height: 15px;
+	background-repeat: no-repeat;
+}
+.intro__info-items li:first-child:after{
+	content: "";
+	position: absolute;
+	background-image: url(../image/icons/korea-flag-icon.svg);
+	bottom: 3px;
+	width: 56px;
+	height: 45px;
 }
 .intro__info-consultation{
 	display: inline-block;
